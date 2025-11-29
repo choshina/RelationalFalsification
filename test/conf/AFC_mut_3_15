@@ -1,0 +1,52 @@
+model 1
+AFC_FFNN_trainlm_15_15_15_Apr_1_2020_R2021a
+parameters 10
+T=30;
+fuel_inj_tol=1.0;
+MAF_sensor_tol=1.0;
+AF_sensor_tol=1.0;
+pump_tol=1;
+kappa_tol=1;
+tau_ww_tol=1;
+fault_time=50;
+kp=0.04;
+ki=0.14;
+epsilon 4
+0.01
+0.01
+0.03
+0.03
+threshold 4
+0.15
+0.2
+0.2
+0.3
+input_name 2
+Engine_Speed
+Pedal_Angle
+input_range 2
+900 1100
+8.8 61.1
+controlpoints 1
+3
+timespan 1
+0:0.1:30
+algorithm 6
+Random
+TwoInput
+InputEpsilon1
+InputEpsilon2
+DPTwoInput
+DPInputEpsilon
+optimization 1
+cmaes
+phi 1
+AFC1 alw_[0,30](AF[t] < 1.2*14.7 and AF[t] > 0.8*14.7)
+timeout 1
+600
+trials 1
+20
+locBudget 1
+3
+addpath 1
+/home/zhenya/AICPSRobustness
