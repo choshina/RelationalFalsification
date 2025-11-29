@@ -1,4 +1,4 @@
-This is the repository for the paper "Robustness Assessment of DNN Controllers of AI-Enabled CPS" submitted to AAAI-2025, AI Alignment track
+This is the repository for the paper "Relational Falsification of Hybrid Systems"
 
 ***
 
