@@ -16,13 +16,8 @@ controlpoints 1
 5
 timespan 1
 0:0.01:30
-algorithm 6
-Random
-TwoInput
-InputEpsilon1
-InputEpsilon2
-DPTwoInput
-DPInputEpsilon
+algorithm 1
+const
 optimization 1
 cmaes
 phi 1
