@@ -13,7 +13,7 @@ This is the repository for the paper "Relational Falsification of Hybrid Systems
 ## Installation
 
 - Clone the repository.
-  1. `git clone https://github.com/Aiura55/AICPSRobustness.git`
+  1. `git clone https://github.com/choshina/RelationalFalsification.git`
   2. `git submodule init`
   3. `git submodule update`
 
